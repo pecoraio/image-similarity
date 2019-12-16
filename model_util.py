@@ -32,6 +32,7 @@ class DeepModel():
         output = base_model.layers[output_layer].output
         output = GlobalAveragePooling2D()(output)
         model = Model(inputs=base_model.input, outputs=output)
+        model.save('img-simil.h5')
         return model
 
     @staticmethod
