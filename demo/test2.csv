@@ -1,4 +1,4 @@
 id,url
-3,file://H:/git/image-similarity/demo/1.png
-4,file://H:/git/image-similarity/demo/2.png
-5,https://raw.githubusercontent.com/ryanfwy/image_similarity/master/demo/5.jpg
+3,./demo/1.png
+4,./demo/2.png
+5,./demo/5.jpg
